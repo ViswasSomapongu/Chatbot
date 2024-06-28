@@ -41,7 +41,7 @@ chat_session = model.start_chat(
 
 main = Blueprint('main', __name__)
 
-@main.route('/ask', methods=['POST'])
+@main.route('/', methods=['POST'])
 def ask_question():
     question = request.json.get('question')
     if not question:

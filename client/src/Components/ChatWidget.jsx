@@ -16,7 +16,7 @@ const ChatWidget = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("http://localhost:5000/ask", {
+      const res = await fetch("https://chatbot-dlm9.onrender.com/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

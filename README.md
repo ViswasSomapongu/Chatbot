@@ -2,6 +2,9 @@
 
 This project is a full-stack application that integrates a conversational AI chatbot using Google Generative AI (Gemini-1.5-flash). The application is built with a React frontend and a Flask backend. The chatbot can handle user queries and provide intelligent responses.
 
+## Screenshot
+![image](https://github.com/ViswasSomapongu/Chatbot/assets/145599843/8c3c8bbd-bc78-4d66-92a4-fcd04e157a78)
+
 ## Features
 
 - **Conversational AI**: Uses Google's Generative AI to generate responses to user queries.
